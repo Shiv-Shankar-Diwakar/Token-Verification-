@@ -28,9 +28,9 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 # ===========================================================
 #Shortner (token system) 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "gplinks.com")
 
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "bn623441bc55ef14be63018992134d393a62a9dfh5")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "5cfebe36ddc1800f0ac5ba1c35bfdecc524a4ceb")
 
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 600)) # Add time in seconds
 
